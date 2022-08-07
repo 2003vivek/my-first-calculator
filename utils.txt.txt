@@ -1,1 +1,80 @@
-this is my git version 3
+# print("project 1: karyana calculator")
+# sum = 0
+# while True:
+#     userInput = input("Enter the price: \n")
+#     if userInput!='q':
+#         sum = sum + int(userInput)
+#         print("your total bill so far is {}".format(sum))
+#     else:
+#         print("your total shopping is{}".format(sum))
+
+#"project 2:")
+print("this is the snake water gun game!!! and YOU HAVE TOTAL 10 CHANCES")
+# for i in range(10):
+numer_of_turns = 0
+while numer_of_turns<=10:
+    _yours = input("\nwhat is your choice: snake,water,gun?\n").strip().lower()
+    import random
+    pc = ["snake","water","gun"]
+    _computer = random.choice(pc)
+    print(_computer)
+
+    computer_points = 0
+    your_points = 0
+
+    if _yours == "snake" and _computer == "water":
+        print("you won this round")
+        your_points = your_points + 1
+        print(your_points)
+
+    elif _yours == "water" and _computer == "snake":
+        print("computer won this round")
+        computer_points = computer_points + 1
+        print(computer_points)
+
+    elif _yours == "gun" and _computer == "water":
+        print("computer won this round")
+        computer_points = computer_points + 1
+        print(computer_points)
+
+    elif _yours == "water" and _computer == "gun":
+        print("you won this round")
+        your_points = your_points + 1
+        print(your_points)
+
+    elif _yours == "gun" and  _computer == "snake":
+        print("you won this round")
+        your_points = your_points + 1
+        print(your_points)
+
+    elif _yours == "snake" and _computer == "gun":
+        print("computer won this round")
+        computer_points = computer_points + 1
+        print(computer_points)
+
+    elif _yours == "gun" and _computer == "water":
+        print("computer won this round")
+        computer_points = computer_points + 1
+        print(computer_points)
+
+    elif _yours == "snake" and _computer == "snake":
+        print("DRAW")
+    elif _yours == "water" and _computer == "water":
+        print("DRAW")
+    elif _yours == "gun" and _computer == "gun":
+        print("DRAW")
+        if numer_of_turns== 10:
+            print("Game Over")
+            if computer_points>your_points:
+                print("computer won this game")
+            elif computer_points<your_points:
+                print("you won the game")
+            else:
+                print("TIE")
+
+
+
+
+
+
+
