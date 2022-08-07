@@ -1,16 +1,4 @@
-# print("project 1: karyana calculator")
-# sum = 0
-# while True:
-#     userInput = input("Enter the price: \n")
-#     if userInput!='q':
-#         sum = sum + int(userInput)
-#         print("your total bill so far is {}".format(sum))
-#     else:
-#         print("your total shopping is{}".format(sum))
-
-#"project 2:")
-print("this is the snake water gun game!!! and YOU HAVE TOTAL 10 CHANCES")
-# for i in range(10):
+this is my git version 3
 numer_of_turns = 0
 while numer_of_turns<=10:
     _yours = input("\nwhat is your choice: snake,water,gun?\n").strip().lower()
