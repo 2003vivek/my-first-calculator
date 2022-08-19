@@ -1,1 +1,7 @@
 Git version 3
+for i in range(5):
+    inp = int(input("what is your salary?: "))
+    if inp >=5000:
+        print(inp*30/100)
+        print("you should invest this amount")
+        print("And use some amount for your insurance and lifestyle")
